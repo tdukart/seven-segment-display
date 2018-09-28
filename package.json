@@ -1,6 +1,6 @@
 {
   "name": "@tdukart/seven-segment-display",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A React widget that is a 7 segment display",
   "main": "lib/index.js",
   "repository": {
