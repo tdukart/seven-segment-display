@@ -56,6 +56,7 @@ $ npm install seven-segment-display --save
                         <Display 
                           value={this.state.count} 
                           color="blue" 
+                          strokeColor="white"
                           digitCount={3}/>
                     </div>
                 );
@@ -92,7 +93,7 @@ class Test extends React.Component {
   render() {
     return (
       <div style={{ width: "200px" }}>
-        <Display value={this.state.count} color="blue" digitCount={3} />
+        <Display value={this.state.count} color="blue" strokeColor="white" digitCount={3} />
       </div>
     );
   }
